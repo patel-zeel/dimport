@@ -9,4 +9,4 @@ requires = [
 	]
 
 [tool.setuptools_scm]
-write_to = "box/_version.py"
+write_to = "dspace/_version.py"

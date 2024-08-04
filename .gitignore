@@ -3,4 +3,4 @@ __pycache__/
 *.ipynb_checkpoints
 *.pyc
 *.egg-info/
-box/_version.py
+dspace/_version.py
