@@ -1,4 +1,4 @@
-`dimport`: Your **D**efault **Import**s
+A library to quickly import your default libraries in jupyter notebooks and python scripts.
 
 # Install
 ```bash
