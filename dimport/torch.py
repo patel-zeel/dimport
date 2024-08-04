@@ -1,4 +1,4 @@
-from dspace import base_libraries
+from dimport import base_libraries
 
 torch_libraries = f"""{base_libraries}
 # torch

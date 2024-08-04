@@ -26,13 +26,13 @@ from joblib import Parallel, delayed
 home = os.path.expanduser("~")
 
 # load or write and load default libraries
-if not exists(join(home, ".dspace", ".default")):
-    print("Default libraries not found. Writing default libraries to ~/.dspace/.default")
-    os.makedirs(join(home, ".dspace"), exist_ok=True)
-    with open(join(home, ".dspace", ".default"), "w") as f:
+if not exists(join(home, ".dimport", ".default")):
+    print("Default libraries not found. Writing default libraries to ~/.dimport/.default")
+    os.makedirs(join(home, ".dimport"), exist_ok=True)
+    with open(join(home, ".dimport", ".default"), "w") as f:
         f.write(base_libraries)
 
-with open(join(home, ".dspace", ".default"), "r") as f:
+with open(join(home, ".dimport", ".default"), "r") as f:
     default = f.read().strip()
 
 print(default)
