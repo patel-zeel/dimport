@@ -18,7 +18,18 @@ On the first time cell execution, it will print the default imports.
 
 Copy-paste the printed lines in your notebook and remove (or keep if you want!) the `import dimport` line. That's it!
 
-These are my **D**efault **Import**s, what are yours?
+## For python scripts
+Import `dimport` at the beginning of your script.
+```python
+import dimport
+```
+
+Run the script from the terminal. It will print the default imports.
+![](assets/dimport_py.png)
+
+Copy-paste the printed lines in your script and remove `import dimport` line. That's it!
+
+<font color='red'>**Note:**</font> You can modify the default imports as per your needs!
 
 ## Modify the default imports
 
