@@ -1,6 +1,8 @@
+from ._version import version as __version__  # noqa
+
 import os
 from os.path import join, exists, basename, dirname
-from ._version import version as __version__  # noqa
+
 
 base_libraries = """
 # Config

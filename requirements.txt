@@ -3,3 +3,4 @@ pandas
 matplotlib
 tqdm[notebook]
 joblib
+# pyperclip # We tried this but it didn't work even after installing the linux dependencies: xclip, xsel
